@@ -50,15 +50,15 @@ os.environ["PYSPARK_SUBMIT_ARGS"] = ("--packages graphframes:graphframes:0.6.0-s
 ```
 --packages graphframes:graphframes:0.6.0-spark2.3-s_2.1
 
-spark-submit --packages graphframes:graphframes:0.6.0-spark2.3-s_2.11 firstname_lastname_task1.py <filter	threshold> <input_file_path> <community_output_file_path>
+spark-submit --packages graphframes:graphframes:0.6.0-spark2.3-s_2.11 firstname_lastname_task1.py <filter_threshold> <input_file_path> <community_output_file_path>
 ```
 #### Task 2:
 ```
-spark-submit firstname_lastname_task2.py <filter threshold> <input_file_path> <betweenness_output_file_path> <community_output_file_path>
+spark-submit firstname_lastname_task2.py <filter_threshold> <input_file_path> <betweenness_output_file_path> <community_output_file_path>
 ```
 
 Input	parameters:	
-1.	filter	threshold:	the	filter	threshold to	generate	edges	between	user	nodes.
+1.	filter_threshold:	the	filter	threshold to	generate	edges	between	user	nodes.
 2.	input	file	path:	the	path	to	the	input	file	including	path,	file	name	and	extension.
 3.	betweenness	output file	path:	the	path	to	the	betweenness	output	file	including	path,	file	name and extension.
 4.	community	output	file	path: the	path	to	the	community	output	file	including	path,	file	name	and	
